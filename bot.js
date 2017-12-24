@@ -1,4 +1,4 @@
-var Discord = require('discord.js');
+var Discord = require('discord.io');
 //var logger = require('winston');
 var auth = require('./auth.json');
 var chantmode = false;
@@ -8,7 +8,7 @@ var askmode = false;
 //logger.add(logger.transports.Console, {
     colorize: true
 });
-logger.level = 'debug';
+//logger.level = 'debug';
 // Initialize Discord Bot
 var bot = new Discord.Client({
    token: auth.token,
