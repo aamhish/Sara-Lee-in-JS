@@ -202,18 +202,19 @@ if(message.includes("Cheesy!")||message.includes("cheesy!")){
  
      }
  
-}
+
  
  
  
  if(message.includes("prog time")){
-        if(user!=="1403 Helper")
+        if(user!=="1403 Helper"){
          bot.sendMessage({
                   to: channelID,
                     message: 'Did someone say prog time? *cries on the inside*'});
-               
+        }
+ }
  
-     }
+ }    
   
 });
  //bot.login(process.env.BOT_TOKEN);
