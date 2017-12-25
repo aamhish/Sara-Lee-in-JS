@@ -216,6 +216,5 @@ if(message.includes("Cheesy!")||message.includes("cheesy!")){
      }
    
 }
-)};
-
+)
 //client.login(process.env.BOT_TOKEN);
