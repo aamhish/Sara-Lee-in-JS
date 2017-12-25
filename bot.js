@@ -213,7 +213,7 @@ if(message.includes("Cheesy!")||message.includes("cheesy!")){
                     message: 'Did someone say prog time? *cries on the inside*'});
                
  
-     }
+     };
    
 });
 //client.login(process.env.BOT_TOKEN);
