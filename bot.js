@@ -1,5 +1,5 @@
 var Discord = require('discord.io');
-//var logger = require('winston');
+const logger = require('heroku-logger')
 var auth = require('./auth.json');
 var chantmode = false;
 var askmode = false;
@@ -15,9 +15,9 @@ var bot = new Discord.Client({
    autorun: true
 });
 bot.on('ready', function (evt) {
-    //logger.info('Connected');
-   // logger.info('Logged in as: ');
-   // logger.info(bot.username + ' - (' + bot.id + ')');
+    logger.info('Connected');
+    logger.info('Logged in as: ');
+   logger.info(bot.username + ' - (' + bot.id + ')');
 });
 bot.on('message', function (user, userID, channelID, message, evt) {
     // Our bot needs to know if it will execute a command
