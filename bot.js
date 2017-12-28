@@ -1,6 +1,6 @@
 var Discord = require('discord.io');
 const logger = require('heroku-logger')
-var auth = require('./auth.json');
+//var auth = require('./auth.json');
 var chantmode = false;
 var askmode = false;
 // Configure logger settings
