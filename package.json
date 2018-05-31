@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "main": "bot.js",
   "scripts": {
-    "start": "node bot.js"
+    "start": "node bot.js",
   },
   "dependencies": {
     "discord.io": "2.5.3",
@@ -14,6 +14,6 @@
   },
   "engines": {
    "node": "6.11.4",
-    "npm": "3.10.3"
-}
+    "npm": "3.10.3",
+},
 }
